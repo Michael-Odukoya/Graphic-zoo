@@ -681,7 +681,7 @@
         padding-right: 30px;
     }
     .mid5 h1{
-        font-size: 23px;
+        font-size: 35px;
     }
     .flow{
         display: block;
@@ -713,6 +713,7 @@
     .body6 img{
         width:500px;
         height: 400px;
+        margin-left: 0px;
     }
     .body7 .satisfied p{
         font-size: 35px;
@@ -732,6 +733,8 @@
     }
     .cover .c-cotainer{
         margin-bottom: 2rem;
+        width: 280px;
+        height: 460px;
     }
     .footer .footer-top{
         display: block;
@@ -771,14 +774,18 @@
         margin-bottom: 2rem ;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     .nav-right a{
         display: none;
     }
+    .body1{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
     .body1 img{
         width: 250px ;
-        height: 200px;
-        padding-left: 3rem;
+        height: 220px;
+        padding-left: 2rem;
     }
     .body2-contain img{
         width: 350px ;
@@ -788,18 +795,20 @@
         padding-right: 1rem;
     }
     .brand div{
-        width: 300px;
-        height: 300px;
-        margin-left:0px ;
+        width: 280px;
+        height: 290px;
+        margin-left:0px;
     }
     .flow div h2{
         margin-left: 0px;
+        font-size: 23px;
     }
     .flow div p{
         margin-left: 0px;
+        font-size: 18px;
      }
     .flow img{
-        width: 200px;
+        width: 250px;
         height:170px;
     }
     .body5{
@@ -812,8 +821,8 @@
     }
     .body6 img{
         padding-top: 2rem;
-        width:200px;
-        height: 200px;
+        width:250px;
+        height: 170px;
     }
     .cover{
         margin-left: -5px;
@@ -824,6 +833,20 @@
     }
     .footer-top .f3 .f3-search{
         margin-left: -0.1rem;
+    }
+    .footer-top .f3 .f3-srch{
+        width: 200px;
+    }
+    .footer-top .f3 .f3-btn{
+        margin-left: -2rem;
+    }
+    .footer-end .end a{
+        display: block;
+        margin-bottom: 0.5rem;
+        margin-left: 3rem;
+    }
+    .footer-end p{
+        margin-bottom: 0.5rem;
     }
 }
 
